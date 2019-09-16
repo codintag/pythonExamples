@@ -37,7 +37,7 @@ myBtn5 = Button(cal,padx=16, pady=16, bd=4, fg="black", font=('arial', 19, 'bold
 
 myBtn6 = Button(cal,padx=16, pady=16, bd=4, fg="black", font=('arial', 19, 'bold'), text="6", bg="tomato", command=lambda:btnClick(6)).grid(row=2, column=2)
 
-Subtraction = Button(cal,padx=16, pady=16, bd=4, fg="black", font=('arial', 19, 'bold'), text="-", bg="tomato", command=lambda:btnClick("-, command=lambda:btnClick(7)")).grid(row=2, column=3)
+Subtraction = Button(cal,padx=16, pady=16, bd=4, fg="black", font=('arial', 19, 'bold'), text="-", bg="tomato", command=lambda:btnClick("-")).grid(row=2, column=3)
 #============================================================
 myBtn1 = Button(cal,padx=16,pady=16, bd=4, fg="black", font=('arial', 19, 'bold'), text="1", bg="tomato", command=lambda:btnClick(1)).grid(row=3, column=0)
 
