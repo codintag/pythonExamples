@@ -18,6 +18,7 @@ def btnEqualsInput():
 
 cal = Tk()
 cal.title("Calculatrice")
+cal.iconbitmap('photoEr.ico')
 operator = ""
 text_input = StringVar()
 #for relief = RIDGE, FLAT, RAISED, SUNKEN, GROOVE
